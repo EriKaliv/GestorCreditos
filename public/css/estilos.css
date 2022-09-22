@@ -1,0 +1,142 @@
+ .text-label{
+    color: #73879C;
+ }
+/*
+| -------------------------------------------------------------------
+| base.php
+| -------------------------------------------------------------------
+*/  
+
+.nav-sm .navbar.nav_title a img {
+    font-size: 27px;
+    width: 83%;
+}
+
+.site_title img {
+    border-radius: 50%;
+    width: 26%;
+    border: 5px solid rgba(15, 18, 177, 0.86);
+    margin-top: -7px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+ /*
+| -------------------------------------------------------------------
+| creditos.php
+| -------------------------------------------------------------------
+*/  
+
+
+.detalles{
+    background: #E6E9ED !important;
+    padding-top: 10px;
+}
+
+@media (min-width: 320px){
+    .frecuencia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sm-height{
+        height: 263px;
+    }
+}
+@media (min-width: 600px){
+    .frecuencia{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 1200px){
+    .frecuencia{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fixed_height{
+        height: 230px;
+    }
+}
+
+/*
+| -------------------------------------------------------------------
+| Generales
+| -------------------------------------------------------------------
+*/  
+.boton-icon{
+    padding-right: 10px;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buscar{
+    flex-direction: column;
+    width: 151px;
+    height: 177px;
+}
+
+@media (min-width: 320px){
+    .buscar{
+        flex-direction: column;
+        width: 151px;
+        height: 177px;
+    }
+
+}
+
+@media (min-width: 600px){
+    .buscar{
+        flex-direction: row;
+        width: 444px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .buscar{
+        flex-direction: row;
+        width: 444px;
+        height: auto;
+    }
+}
+
+@media (min-width: 320px){
+    .errorSolicitud{
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (min-width: 1200px){
+    .errorSolicitud{
+        position: relative;
+        left: 397px;
+    }
+}
+
+ /*
+| -------------------------------------------------------------------
+| deudores.php
+| -------------------------------------------------------------------
+*/  
+
+/*@media (min-width: 320px){
+    .agregar-deudor{
+        flex-direction: column;
+        width: 207px;
+    }
+}
+
+@media (min-width: 1200px){
+    .agregar-deudor{
+        width: auto;
+    }
+}*/
